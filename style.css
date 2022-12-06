@@ -1,205 +1,163 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  h1 {
-    color: tomato;
-    font-weight: 600;
-    font-size: 3rem;
-    opacity: 0.8;
-  }
-  h2,
-  p {
-    color: #658ec6;
-    font-weight: 500;
-    opacity: 0.8;
-  }
-  
-  h3 {
-    color: #426696;
-    font-weight: 600;
-    opacity: 0.8;
-  }
-  
-  main {
-    font-family: "Poppins", sans-serif;
-    min-height: 100vh;
-    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .glass {
-    background: white;
-    min-height: 50vh;
-    width: 80%;
-    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(37, 0, 245, 0.3));
-    border-radius: 2rem;
-    z-index: 2;
-    backdrop-filter: blur(2rem);
-    display: flex;
-    margin-top: 130px;
-    margin-bottom: 130px;
-  }
+*{
+    background-color: #0fb8ad ;
+    font-family:'Times New Roman', Times, ;
+    margin: 5px;
+}
 
-  .dashboard {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+
+h1{
     text-align: center;
-    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.767));
-    border-radius: 2rem;
-  }
+    color:black;
+    margin-left: 500px;
+    margin-right: 500px;
+    height:40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow:  5px 5px rgb(0, 0, 0), 5px 5px 5px;
+    text-shadow: 2px 2px white;
+    border-radius: 25px;
+    background-image: linear-gradient(90deg, red, blue);    
+}
+h2{
+    background-color: royalblue;
+    text-align: center;
+    box-shadow:  5px 5px rgb(0, 0, 0, 3), 5px 5px 5px;
+    border-radius: 25px;
+}
 
-  .link h2 {
-    padding: 0rem 2rem;
-  }
-  
-  .games {
-    flex: 2;
-  }
-  
-  .pro {
-    border-radius: 2rem;
-    color: white;
-    padding: 1rem;
-    position: relative;
+.sub{
+    color:black;
+    text-shadow: 2px 2px white;
+
+}
+
+
+button{
+    background-color: tomato;
+}
+
+p{
+    background-color: tomato;
+    box-shadow:  5px 5px rgb(0, 0, 0), 5px 5px 5px;
+    background-clip: text;
+
+}
+
+#lux{
+    border-radius: 25%;
+    margin-left: 100px;
+    margin-top: -150px;
+    margin-bottom: 0px;
+}
+
+#aero{
+    border-radius: 25%;
+    margin-left: 550px;
+    margin-top: -150px;
+    margin-bottom: 0px;
+    margin-right:  0px;
+}
+
+.bikes{
+    margin-left: 185px;
+}
+
+.socials{
+    list-style: none;
+}
+
+.ig{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.fb{
+    margin-left: 565px;
+    margin-top: -120px;
+}
+.yt{
+    margin-left: 840px;
+    margin-top: -115px;
+}
+
+#julian{
+    margin-left: 100px;
+    margin-top: -500px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+}
+
+#ben{
+    border-radius: 25px;
+}
+
+#mvdp{
+    margin-left: 620px;
+    margin-top: -500px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+}
+
+#julian2{
+    margin-left: 100px;
+    margin-right: 970px;
+    background-color:yellow;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: -62px;
+}
+
+#mvdp2{
+    margin-left: 980px;
+    margin-right: 90px;
+    background-color: green;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: -40px;
+}
+
+#ben2{
+    margin-left: 505px;
+    margin-right: 505px;
+    background-color: orange;
+    border-radius: 25px;
+    margin-top: -46px;
+}
+
+#ul{
+  width: 190px;
+  background-image: linear-gradient(90deg, red, blue); 
+  padding: 5px;
+  margin: 20px;
+  text-align: center;
+  list-style: none;
+  margin-right: 150px;
+  margin-left: 200px;
+  margin-top: -130px;
+}
+
+#field{
+    text-align: center;
+    margin-right: 500px;
+    margin-left: 500px;
+}
+
+.kat{
     margin-left: 30px;
     margin-right: 30px;
-    text-align: center;
-    margin-bottom: -20px;
-  }
-  
-  /* GAMES */
-  .status {
-    margin-bottom: 3rem;
-  }
-  
-  .status input {
-    background: linear-gradient(
-      to right bottom,
-      rgba(255, 255, 255, 0.7),
-      rgba(255, 255, 255, 0.3)
-    );
-    border: none;
-    width: 50%;
-    padding: 0.5rem;
-    border-radius: 2rem;
-  }
-  
-  .games {
-    margin: 5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-  
-  .card {
-    display: flex;
-    background: linear-gradient(
-      to left top,
-      rgba(255, 255, 255, 0.8),
-      rgba(255, 255, 255, 0.5)
-    );
-    border-radius: 1rem;
-    margin: 2rem 0rem;
-    padding: 2rem;
-    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
-    justify-content: space-between;
-    margin-top: 5px;
-  }
-  
-  .progress {
-    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
-    width: 100%;
-    height: 25%;
-    border-radius: 1rem;
-    position: relative;
-    overflow: hidden;
-  }
-  .progress::after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: rgb(236, 236, 236);
-    position: absolute;
-    left: 60%;
-  }
-  .card-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-    .percentage {
-      font-weight: bold;
-      background: linear-gradient(to right top, blue, red);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-  
-  #ben{
-      border-radius: 50%;
-      margin-top: -30px;
-  }
-
-  #social{
-      font-size: 30px;
-      margin-bottom: 5px;
-      margin-top: -10px;
-      color: white;
-  }
-
-  #contact{
-      color: orangered;
-  }
-
-#tags{
-    color:blue;
+    border-radius: 5px;
+    background-image: linear-gradient(90deg, red, blue, tomato); 
 }
 
-#tags2{
-    color: green;
+.huwlynn{
+    margin-left:550px;
+    margin-right: 450px;
+    margin-top: 23px;
 }
 
-#num{
-  color: white;
-  text-decoration: underline;
+.katig{
+    margin-left:660px;
+    margin-right: 360px;
+    margin-bottom: -95px;
 }
 
-.fb{
-  margin-bottom: 10px;
-  margin-top: 15px;
-}
-.ig{
-  margin-bottom: 10px;
-}
-.spotify{
-  margin-bottom: 10px;
-}
-.strava{
-  margin-bottom: -40px;
-}
-
-#yow{
-  text-align: center;
-  background: linear-gradient(to right top, blue, red);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-#gf{
-  text-align: center;
-  color: black;
-}
-#namesub{
-  color:white;
-}
-#fine{
-  color: whitesmoke;
-  text-decoration: underline;
-}
